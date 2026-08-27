@@ -5,8 +5,11 @@ public class Punto {
    private Float y;
    public Punto(Float x, Float y) {
 	super();
-	this.x = x;
-	this.y = y;
+	this.setXY(x,y);
+   }
+   public void setXY(float x,float y ) {
+	   this.setY(x);
+	   this.setY(y);
    }
    public Float getX() {
 	return x;
