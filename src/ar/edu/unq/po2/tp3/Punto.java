@@ -19,7 +19,5 @@ public class Punto {
    }
    public void setY(Float y) {
 	this.y = y;
-   }
-   
-   
+   }   
 }
